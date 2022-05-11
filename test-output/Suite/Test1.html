@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 09 22:02:11 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>111 seconds (111828 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='script.demo5.test_report()'><b>test_report</b><br>Test class: script.demo5</td>
+<td></td>
+<td>0</td>
+<td>script.demo5@60bd273d</td></tr>
+<tr>
+<td title='script.demo4.testB()'><b>testB</b><br>Test class: script.demo4<br/>
+<a href="#Output-142298396" onClick='toggleBox("Output-142298396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-142298396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-142298396">
+testB<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo4@4f80542f</td></tr>
+<tr>
+<td title='script.demo3.test3()'><b>test3</b><br>Test class: script.demo3<br>Parameters: [Ljava.lang.String;@194712e7<br/>
+<a href="#Output-1642418178" onClick='toggleBox("Output-1642418178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1642418178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1642418178">
+A3<br/>
+<br/>
+C3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo3@534a5a98</td></tr>
+<tr>
+<td title='script.demo2.test2()'><b>test2</b><br>Test class: script.demo2<br>Parameters: [Ljava.lang.String;@56b90de8<br/>
+<a href="#Output-1750737776" onClick='toggleBox("Output-1750737776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1750737776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1750737776">
+Facebook - log in or sign up<br/>
+A1<br/>
+B1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo2@5a45133e</td></tr>
+<tr>
+<td title='script.demo2.test2()'><b>test2</b><br>Test class: script.demo2<br>Parameters: [Ljava.lang.String;@747c0886<br/>
+<a href="#Output-843539629" onClick='toggleBox("Output-843539629", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-843539629" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-843539629">
+Facebook - log in or sign up<br/>
+A3<br/>
+B3<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo2@5a45133e</td></tr>
+<tr>
+<td title='script.demo3.test3()'><b>test3</b><br>Test class: script.demo3<br>Parameters: [Ljava.lang.String;@3401283c<br/>
+<a href="#Output-568957890" onClick='toggleBox("Output-568957890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-568957890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-568957890">
+A2<br/>
+B2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo3@534a5a98</td></tr>
+<tr>
+<td title='script.demo3.test3()'><b>test3</b><br>Test class: script.demo3<br>Parameters: [Ljava.lang.String;@15f0d471<br/>
+<a href="#Output-346101133" onClick='toggleBox("Output-346101133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-346101133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-346101133">
+A4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo3@534a5a98</td></tr>
+<tr>
+<td title='script.demo1.test1()'><b>test1</b><br>Test class: script.demo1<br/>
+<a href="#Output-861512244" onClick='toggleBox("Output-861512244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-861512244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-861512244">
+Facebook - log in or sign up<br/>
+admin<br/>
+manager<br/>
+bhanu<br/>
+abcd<br/>
+akshara<br/>
+xyz<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo1@53aac487</td></tr>
+<tr>
+<td title='script.demo4.testA()'><b>testA</b><br>Test class: script.demo4<br/>
+<a href="#Output-131248796" onClick='toggleBox("Output-131248796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131248796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131248796">
+testA<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo4@4f80542f</td></tr>
+<tr>
+<td title='script.demo2.test2()'><b>test2</b><br>Test class: script.demo2<br>Parameters: [Ljava.lang.String;@b384d6a<br/>
+<a href="#Output-1150707352" onClick='toggleBox("Output-1150707352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1150707352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1150707352">
+Facebook - log in or sign up<br/>
+A2<br/>
+B2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo2@5a45133e</td></tr>
+<tr>
+<td title='script.demo3.test3()'><b>test3</b><br>Test class: script.demo3<br>Parameters: [Ljava.lang.String;@1f144cb3<br/>
+<a href="#Output-571977414" onClick='toggleBox("Output-571977414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-571977414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-571977414">
+A1<br/>
+B1<br/>
+C1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.demo3@534a5a98</td></tr>
+<tr>
+<td title='script.Loginusingframework.test1()'><b>test1</b><br>Test class: script.Loginusingframework<br/>
+<a href="#Output-411956922" onClick='toggleBox("Output-411956922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-411956922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-411956922">
+Facebook - log in or sign up<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.Loginusingframework@576d5deb</td></tr>
+<tr>
+<td title='script.Login.test1()'><b>test1</b><br>Test class: script.Login<br/>
+<a href="#Output-964276641" onClick='toggleBox("Output-964276641", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-964276641" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-964276641">
+Facebook - log in or sign up<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>script.Login@121314f7</td></tr>
+</table><p>
+</body>
+</html>
